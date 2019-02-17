@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Part 'xc7k160t' is not installed.&#xA;command 'ap_source' returned error code&#xA;    while executing&#xA;&quot;source /home/shimingsong/repo_ex/HLx_Examples/DSP/fir_example/eg/fir_2ch_int/proj/solution1/csynth.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/shimingsong/repo_ex/HLx_Examples/DSP/fir_example/eg/fir_2ch_int/proj/solution1/csynth.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="proj" solutionName="solution1" date="2019-02-16T14:28:17.703-0800"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

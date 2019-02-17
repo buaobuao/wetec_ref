@@ -1,0 +1,25 @@
+INFO: [HLS 200-10] Running '/opt/Xilinx/Vivado/2017.4.op/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'shimingsong' on host 'shimingsong-Surface-Pro' (Linux_x86_64 version 4.15.0-43-generic) on Sat Feb 16 14:28:17 PST 2019
+INFO: [HLS 200-10] On os Ubuntu 18.04 LTS
+INFO: [HLS 200-10] In directory '/home/shimingsong/repo_ex/HLx_Examples/DSP/fir_example/eg/fir_2ch_int'
+INFO: [HLS 200-10] Opening project '/home/shimingsong/repo_ex/HLx_Examples/DSP/fir_example/eg/fir_2ch_int/proj'.
+INFO: [HLS 200-10] Adding design file 'fir_2ch_int.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'fir_2ch_int_dout_q_cmodel.txt' to the project
+INFO: [HLS 200-10] Adding test bench file 'fir_2ch_int_dout_i_cmodel.txt' to the project
+INFO: [HLS 200-10] Adding test bench file 'fir_2ch_int_din_q.txt' to the project
+INFO: [HLS 200-10] Adding test bench file 'fir_2ch_int_din_i.txt' to the project
+INFO: [HLS 200-10] Adding test bench file 'fir_2ch_int_tb.cpp' to the project
+INFO: [HLS 200-10] Opening solution '/home/shimingsong/repo_ex/HLx_Examples/DSP/fir_example/eg/fir_2ch_int/proj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 4ns.
+ERROR: [HLS 200-70] Part 'xc7k160t' is not installed.
+command 'ap_source' returned error code
+    while executing
+"source /home/shimingsong/repo_ex/HLx_Examples/DSP/fir_example/eg/fir_2ch_int/proj/solution1/csynth.tcl"
+    invoked from within
+"hls::main /home/shimingsong/repo_ex/HLx_Examples/DSP/fir_example/eg/fir_2ch_int/proj/solution1/csynth.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"
