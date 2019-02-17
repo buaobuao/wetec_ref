@@ -1,4 +1,4 @@
-Wetec Standard for HLS
+Wetec Standard Sandbox for HLS
 ======================================
 
 This readme file contains these sections:
